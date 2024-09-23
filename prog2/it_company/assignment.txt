@@ -1,0 +1,11 @@
+r "Teemu Teekkari"
+l "Teemu Teekkari"
+r "Teemu Teekkari"
+as "Teemu Teekkari" C++
+cr Checkers
+ad 3
+ar Checkers Git
+cl Checkers
+cr Theatre
+a "Teemu Teekkari" Theatre
+q

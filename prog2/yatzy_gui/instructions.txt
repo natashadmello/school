@@ -1,0 +1,61 @@
+1. Introduction:
+   The Yatzy program simulates the classic dice game.  Each player gets three turns to roll five dice. The goal is to achieve
+   the highest score by forming specific combinations.
+
+2. Instructions:
+   - Enter the number of players.There are few rules:
+        + The input must be a number greater than 1.
+        + There is an upper limit to setting the number of players: 10
+   - Click "Edit Name" to modify the current player's name or use the default.
+   - Click the "Roll" button to roll the dice.
+   - The game starts with the first player. After rolling, choose to either continue rolling or lock specific dice values.
+   - Player can either choose to continue their turn or pass to the next player by clicking on "Turn"
+   - The game ends when all players have completed their turns or clicked "Quit." The player with the most points wins.
+   - Click "Pause" to pause/resume the game.
+   - Use "Lock" buttons to lock/unlock specific dice values after rolling.
+   - The game tracks time elapsed and displays it on the UI
+   - Click "Reset" to restart the game or "Close" to exit.
+
+3.  The functions of the game:
+        The game has covered the required functions:
+            - Displays the game window and the faces of the rolled dices for the user.
+            - User can set players through a designated input field in the UI.
+            - Allows users to select a new roll or give the turn to the next player.
+            - Can lock/Unlock dices.
+            - Displays the current game status for the user.
+            - Can Reset inbetween or after game is over.
+            - Displays the time, the winner, or indicates a tie between players.
+            - This is the documentation of the game.
+
+        Additional functions:
+            - Dices have been implemented with the png figures.
+            - User can set the number of players in the user interface.
+            - Can Edit Names.
+            - Scoreboard displaying the points players have earned.
+            - Background colour changes, when the game is over. And resetting sets it to original colour.
+            - Pause Button
+
+4.  Description of the implementation of the windows and dialogs of the game
+        a. The game starts by prompting the user to enter the number of players using a QInputDialog. The window features a
+           boolean pointer for user confirmation.
+        b. After the number of players have been recorded, Mainwindow appears.
+           In the Mainwindow, two QGroupBox elements serve distinct purposes. The first displays the points table,
+           featuring categories like Yatzy and Four of a Kind. The second presents player information, including details
+           about the current player and remaining trials. Dice images are visually represented using QPixmap and QLabel.
+        c. QPushButtons enable key game actions such as rolling dice, locking/unlocking, taking turns, resetting,
+           closing, and pausing, enhancing user interaction.
+        d. Background colour changes to skyblue when the game ends or player quits. And QMessagebox will pop up displaying
+           winner's name and the point.
+
+5. Implemented a few changes in gameengine.cpp:
+   - The roll function now returns a vector of integers representing the new points obtained from the dice roll.
+     It also handles the case when there are no more rolls left and signals the end of the game.
+   - The give_turn function now returns an integer (0 or 1) to indicate whether the game is still
+     ongoing or has ended. This provides clarity on the function's outcome.
+
+
+
+
+
+
+
