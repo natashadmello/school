@@ -2,9 +2,6 @@
 
 // Program author:
 // Name: Natasha Dmello
-// Student number: 151802762
-// UserID: nrnadm
-// E-Mail: natasha.dmello@tuni.fi
 
 #include "gameengine.hh"
 #include "functions.hh"
