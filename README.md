@@ -1,1 +1,1 @@
-This repository contains a collection of my school projects, covering topics such as data structures and algorithms (DSA), object-oriented programming (OOP), and natural language processing (NLP).
+
