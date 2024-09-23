@@ -1,8 +1,6 @@
 // Datastructures.hh
 //
 // Student name: Natasha Dmello
-// Student email: natasha.dmello@tuni.fi
-// Student number: 151802762
 
 #ifndef DATASTRUCTURES_HH
 #define DATASTRUCTURES_HH
