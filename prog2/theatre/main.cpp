@@ -21,19 +21,8 @@
  * issues appropriate error messages for invalid inputs and unknown data entities.
  *
  * Program authors - Group Project
- *
- * 1.
  * Name: Sithumini Premarathne
- * Student number: 151798025
- * UserID: tvsipr
- * E-Mail: sithumini.premarathne@tuni.fi
- *
- * 2.
  * Name: Natasha Dmello
- * Student number: 151802762
- * UserID: nrnadm
- * E-Mail: natasha.dmello@tuni.fi
- *
  *
  * Note -  the split function in the program is not the same as the one provided in the templates.
  * We have customized the split function to suit our specific needs.
